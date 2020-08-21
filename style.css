@@ -1,0 +1,32 @@
+body{
+    background-color: aquamarine;
+}
+
+.imgBox{
+    background-image:url('image.jpg') ;
+    position: relative;
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+}
+.whiteBox{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    background-color: white;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.hold{
+    border: 1px solid red;
+}
+
+.hide{
+    display: none;
+}
+
+.dashed{
+    border: 1px dashed salmon;
+    background-color: seagreen;
+}
